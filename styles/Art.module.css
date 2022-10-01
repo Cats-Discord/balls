@@ -1,0 +1,15 @@
+.backdrop {
+    border-style: outset;
+    background-color: black;
+    text-align: left !important;
+    padding: 2rem 2rem 2rem 2rem;
+    align-content: start;
+    justify-content: left;
+    max-width: 40rem;
+}
+.album {
+    border-style: outset;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
