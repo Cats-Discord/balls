@@ -1,15 +1,37 @@
-import Layout from '/components/layout.js'; 
-import Link from 'next/link';
-import Album from '/components/album.js';
+import Layout from "/components/layout.js";
+import Link from "next/link";
+import Album from "/components/album.js";
+import styles from "../styles/Disco.module.css";
 
-# BALLS RECORDS 
-### FROM THE DEPTHS OF THE CATS COLLECTIVE 
+# BALLS RECORDS
 
-<a href="/artists/joo"><Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" /></a>
-<a href="/artists/joo"><Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" /></a>
-<a href="/artists/joo"><Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" /></a>
-<a href="/artists/joo"><Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" /></a>
+### FROM THE DEPTHS OF THE CATS COLLECTIVE
 
-<Link href="/"><p>go back</p></Link>
+<div className={styles.grid}>
+  <a href="/artists/joo">
+    <Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" />
+  </a>
+  <a href="/artists/joo">
+    <Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" />
+  </a>
+  <a href="/artists/joo">
+    <Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" />
+  </a>
+  <a href="/artists/joo">
+    <Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" />
+  </a>
+  <a href="/artists/joo">
+    <Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" />
+  </a>
+  <a href="/artists/joo">
+    <Album url="https://cdn.discordapp.com/attachments/942564255704682496/1025674483266244648/166461020842909610.jpg" />
+  </a>
+</div>
 
-export default ({ children }) => <Layout>{children}</Layout>
+<Link href="/">
+  <p>go back</p>
+</Link>
+
+export default ({ children }) => <Layout>{children}</Layout
+
+>
