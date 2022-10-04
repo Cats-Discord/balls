@@ -1,0 +1,19 @@
+import Album from '/components/album.js';
+import Artist from '/components/artist.js';
+import Layout from '/components/layout.js'; 
+import Link from 'next/link';
+
+<Artist name="Holiday" image="https://cdn.discordapp.com/attachments/1026934761622601798/1026934792224264312/holiday1.png" />
+
+Discord: maya#9183
+
+### Discography 
+
+<Album url="https://cdn.discordapp.com/attachments/824331344829087814/1025375616985464832/hfaqe1a35zp91.jpg?width=687&height=609" />
+<Album url="https://cdn.discordapp.com/attachments/987372049959891014/1025007664490623076/20220929_123426.jpg?width=565&height=609" />
+<Album url="https://cdn.discordapp.com/attachments/987372049959891014/1024111735810048050/IMG_0809.png.jpg?width=565&height=609" />
+<Album url="https://media.discordapp.net/attachments/896251557828497498/1022786860533157950/Remilia_IKEA.jpg?width=687&height=609" />
+
+<Link href="/discography"><p>go back</p></Link>
+
+export default ({ children }) => <Layout>{children}</Layout>
