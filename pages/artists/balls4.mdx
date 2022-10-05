@@ -1,0 +1,18 @@
+import Album from '/components/album.js';
+import Artist from '/components/artist.js';
+import Layout from '/components/layout.js'; 
+import Link from 'next/link';
+
+<Artist name="Nökö" image="https://cdn.discordapp.com/emojis/798632046779170847.webp?size=1024&quality=lossless" />
+
+Discord: Jay-Z#1566
+
+### Discography 
+
+<Album url="https://cdn.discordapp.com/attachments/471709718306357270/1027308642501926982/AA844724-3652-4993-AA48-503E7A817CED.jpg" />
+<Album url="https://cdn.discordapp.com/attachments/471709718306357270/1027308643114295306/0EAA9D7B-501A-4679-93A4-0C8270D4EBD6.jpg" />
+<Album url="https://cdn.discordapp.com/attachments/471709718306357270/1027308643495985322/B7978B30-E7F6-43C3-9FD9-21FEC78215DE.jpg" />
+
+<Link href="/discography"><p>go back</p></Link>
+
+export default ({ children }) => <Layout>{children}</Layout>
