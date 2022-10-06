@@ -42,7 +42,7 @@ span {
 }
 
 .rainbowText {
-    font-family:arial black;
+    font-family:black;
     font-size:40px;
     background-image: 
       linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 

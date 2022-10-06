@@ -7,6 +7,7 @@
     text-shadow: 0 0 0.125rem #0f0;
     animation: jitter 5s infinite;
     text-decoration: none !important;
+    
 }
 .subtext {
     cursor: pointer;
@@ -137,4 +138,15 @@
     52% {
         transform: translateX(0);
     }
+}
+
+.cd {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    top: 1px;
+    position: fixed;
+    text-shadow: 2px 2px #000
 }
