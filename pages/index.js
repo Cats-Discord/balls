@@ -8,6 +8,7 @@ export default function Home() {
         <div className={styles.wrapper}>
         <Head>
             <title>BALLS</title>
+            <p className={styles.cd}><script type="text/javascript" src="/static/countdown.js"></script></p>
         </Head>
                 <h1 className={styles.wxxvhs} data-text="BALLS RECORDS">BALLS RECORDS</h1>
                 <ul className={styles.centerme}>
@@ -16,6 +17,7 @@ export default function Home() {
                     <Link href="https://github.com/cats-discord/balls/"><span className={styles.subtext} data-text="artists">tour</span></Link>
                 </ul>
                 <h5 className={styles.centerme}>brought to you by the cats collective</h5>
+                
         </div>
     )
 }
