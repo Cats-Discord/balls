@@ -4,19 +4,17 @@ import styles from "../styles/Home.module.css";
 class Countdown extends Component {
     constructor(props) {
         super(props);
+        let time = this.getTimeLeft();
         this.state = {
-            days: 0,
-            hours: 0,
-            minutes: 0
+            days: time.days,
+            hours: time.hours,
+            minutes: time.minutes
         };
-        // componentWillMount is depreciated.. will show 0-0-0 for a few seconds after loading
-        // todo: find workaround 
-        this.getTimeLeft();
     }
 
     componentDidMount() {
         setInterval(() => {
-            this.getTimeLeft();
+            this.setState(this.getTimeLeft());
         }, 1000);
     }
 
@@ -28,7 +26,8 @@ class Countdown extends Component {
             const minutes = Math.floor((time /1000 / 60) % 60);
             const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
             const days = Math.floor(time / (1000 * 60 * 60 * 24));
-            this.setState({ days: days, hours: hours, minutes: minutes });
+            
+            return { days, hours, minutes };
         }
     } 
 

@@ -10,9 +10,7 @@ export default function Home() {
             <Head>
                 <title>BALLS</title>
             </Head>
-            <main>
-                <p id="cd" className={styles.cd}><Script type="text/javascript" src="/static/countdown.js"></Script></p>
-                
+            <main>              
                 <Countdown />
                 <h1 className={styles.wxxvhs} data-text="BALLS RECORDS">BALLS RECORDS</h1>
                 <ul className={styles.centerme}>
