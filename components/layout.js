@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Art.module.css'
+import Head from 'next/head';
+import styles from '../styles/Art.module.css';
+import Script from 'next/script';
 
 export default function Layout({ children }) {
   return (
@@ -9,5 +10,5 @@ export default function Layout({ children }) {
       </Head>
       <main className={styles.backdrop}>{children}</main>
     </>
-  )
+  );
 }
