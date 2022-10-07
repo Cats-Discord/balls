@@ -21,7 +21,7 @@ class Countdown extends Component {
     getTimeLeft() {
         const time = Date.parse("November 01, 2022") - Date.parse(new Date());
         if (time < 0) {
-            this.setState({ days: 0, hours: 0, minutes: 0 });
+            return {days: 0, hours: 0, minutes: 0};
         } else {
             const minutes = Math.floor((time /1000 / 60) % 60);
             const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
