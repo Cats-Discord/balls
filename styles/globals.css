@@ -17,6 +17,8 @@ body {
     bottom: 0px;
     left: 0px;
     position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 ul {
     list-style-type: none;

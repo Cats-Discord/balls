@@ -17,7 +17,7 @@ export default function Home() {
                 <meta property="og:image" content="https://cats-discord.github.io/balls21/static/fastmerging.gif" />
                 <meta name="theme-color" content="#ff0066"></meta>
             </Head>
-            <main>              
+            <main>
                 <Countdown />
                 <h1 className={styles.wxxvhs} data-text="BALLS RECORDS">BALLS RECORDS</h1>
                 <ul className={styles.centerme}>
