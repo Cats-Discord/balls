@@ -7,7 +7,6 @@
     text-shadow: 0 0 0.125rem #0f0;
     animation: jitter 5s infinite;
     text-decoration: none !important;
-    
 }
 .subtext {
     cursor: pointer;
@@ -148,5 +147,16 @@
     font-size: 20px;
     top: 1px;
     position: fixed;
-    text-shadow: 2px 2px #000
+    text-shadow: 2px 2px #000;
+    overflow: hidden;
+    animation: cd 8s linear infinite;
+}
+
+@keyframes cd {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
 }
