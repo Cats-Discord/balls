@@ -1,0 +1,19 @@
+import Album from '/components/album.js';
+import Artist from '/components/artist.js';
+import Layout from '/components/layout.js'; 
+import Link from 'next/link';
+
+<Artist name="Adobe" image="https://cdn.discordapp.com/attachments/798068311510351903/1028200640402444328/unknown_1_609x609.png" />
+
+Discord: Adobe#8320
+
+### Discography 
+
+<Album url="https://cdn.discordapp.com/attachments/798068311510351903/1028200435405824125/unknown1_609x609.png" />
+<Album url="https://cdn.discordapp.com/attachments/798068311510351903/1028200435774914670/unknown2_609x609.png" />
+<Album url="https://cdn.discordapp.com/attachments/798068311510351903/1028200436177575936/unknown3_609x609.png" />
+<Album url="https://cdn.discordapp.com/attachments/798068311510351903/1028200436517322752/unknown_609x609.png" />
+
+<Link href="/discography"><p>go back</p></Link>
+
+export default ({ children }) => <Layout>{children}</Layout>
