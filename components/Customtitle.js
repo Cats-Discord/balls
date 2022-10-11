@@ -1,11 +1,11 @@
 import Head from 'next/head';
 
 export default function Customtitle(props) {
-  let pageTitle = ""
+  let pageTitle = "";
   if (props.identifier != "") {
-    pageTitle = "artist / " + props.identifier
+    pageTitle = "artist / " + props.identifier;
   } else {
-    pageTitle = props.page
+    pageTitle = props.page;
   }
   return (
     <Head>
