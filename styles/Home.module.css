@@ -163,3 +163,26 @@
         transform: translateX(-200%);
     }
 }
+
+.cdb {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    bottom: 1px;
+    position: fixed;
+    text-shadow: 2px 2px #000;
+    overflow: hidden;
+    animation: cdb 8s linear infinite;
+}
+
+@keyframes cdb {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+}
+

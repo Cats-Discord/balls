@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Script from 'next/script';
 import Countdown from '../components/countdown';
+import CountdownBot from '../components/countdownBot';
 
 export default function Home() {
     return (
@@ -19,6 +20,7 @@ export default function Home() {
             </Head>
             <main>
                 <Countdown />
+                <CountdownBot />
                 <h1 className={styles.wxxvhs} data-text="BALLS RECORDS">BALLS RECORDS</h1>
                 <ul className={styles.centerme}>
                     <Link href="/discography"><span className={styles.subtext} data-text="artists">artists</span></Link>
