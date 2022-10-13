@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import Script from 'next/script';
 import Countdown from '../components/countdown';
 import CountdownBot from '../components/countdownBot';
+import {randomBackground} from "../public/static/randombg";
 
 export default function Home() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} style={{backgroundImage: randomBackground()}}>
             <Head>
                 <title>BALLS</title>
                 <link rel="icon" href="https://cdn.discordapp.com/emojis/849891216525885460.gif" type="image/gif" ></link>
