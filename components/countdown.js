@@ -8,7 +8,8 @@ class Countdown extends Component {
         this.state = {
             days: time.days,
             hours: time.hours,
-            minutes: time.minutes
+            minutes: time.minutes,
+            style: props.class
         };
     }
 
@@ -32,8 +33,8 @@ class Countdown extends Component {
     } 
 
     render() {
-        return (<><h3 className={styles.cd}>Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</h3>
-        <h3 className={styles.cdb}>Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</h3></>);
+        return (<h3 className={this.state.style}>Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</h3>);
+
     }
 }
 
