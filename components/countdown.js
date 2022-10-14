@@ -32,7 +32,8 @@ class Countdown extends Component {
     } 
 
     render() {
-        return (<h3 className={styles.cd}><marquee behavior="alternate" scrollamount="10">Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</marquee></h3>);
+        return (<><h3 className={styles.cd}>Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</h3>
+        <h3 className={styles.cdb}>Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</h3></>);
     }
 }
 
