@@ -18,7 +18,8 @@ export default function Home() {
                 <meta name="theme-color" content="#ff0066"></meta>
             </Head>
             <main>
-                <Countdown />
+                <Countdown class={styles.cd} />
+                <Countdown class={styles.cdb} />
                 <h1 className={styles.wxxvhs} data-text="BALLS RECORDS">BALLS RECORDS</h1>
                 <ul className={styles.centerme}>
                     <Link href="/discography"><span className={styles.subtext} data-text="artists">artists</span></Link>
