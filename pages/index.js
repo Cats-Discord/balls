@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import Script from 'next/script';
 import Countdown from '../components/countdown';
 
 export default function Home() {
@@ -9,12 +8,11 @@ export default function Home() {
         <div className={styles.wrapper}>
             <Head>
                 <title>BALLS</title>
-                <link rel="icon" href="https://cdn.discordapp.com/emojis/849891216525885460.gif" type="image/gif" ></link>
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://balls.catfile.me" />
                 <meta property="og:title" content="BALLS Record Label" />
                 <meta property="og:description" content="the best record label ever (no contest)" />
-                <meta property="og:image" content="https://cats-discord.github.io/balls21/static/fastmerging.gif" />
+                <meta property="og:image" content="/static/fastmerging.gif" />
                 <meta name="theme-color" content="#ff0066"></meta>
             </Head>
             <main>

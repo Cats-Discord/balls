@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 body {     
-    background-image: url("https://media.tenor.com/tsA9TRzPrjIAAAAC/felix-the-cat-cheers.gif");
+    background-image: url("/static/felix-the-cat-cheers.gif");
     background-color: #000;
     display: flex;
     background-size: cover;
