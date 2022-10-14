@@ -1,0 +1,19 @@
+import Album from '/components/album.js';
+import Artist from '/components/artist.js';
+import Layout from '/components/layout.js'; 
+import Link from 'next/link';
+
+<Artist name="Sam" image="https://cdn.discordapp.com/attachments/741424219350368266/1030375362695282688/836254951835566122_clipdrop-enhance.png" />
+
+Discord: Jackson#8026
+
+### Discography 
+
+<Album url="https://cdn.discordapp.com/attachments/741424219350368266/1030377354259857480/unknown.png" />
+<Album url="https://cdn.discordapp.com/attachments/741424219350368266/1030375683538567238/unknown.png" />
+<Album url="https://cdn.discordapp.com/attachments/741424219350368266/1030377541594263622/unknown.png" />
+<Album url="https://cdn.discordapp.com/attachments/741424219350368266/1030377926602006528/unknown.png" />
+
+<Link href="/discography"><p>go back</p></Link>
+
+export default ({ children }) => <Layout>{children}</Layout>
