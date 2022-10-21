@@ -1,4 +1,4 @@
-## cats hacktoberfest 2022
+## BALLS '22 ![works badge](https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg) ![](https://img.shields.io/badge/get-a_free_tshirt-brightgreen)
 add shit to the site to get a free tshirt (again)
 
 ### contributing 
