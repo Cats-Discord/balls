@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import styles from "../styles/Home.module.css";
 
 class Countdown extends Component {
     constructor(props) {
@@ -8,7 +7,8 @@ class Countdown extends Component {
         this.state = {
             days: time.days,
             hours: time.hours,
-            minutes: time.minutes
+            minutes: time.minutes,
+            style: props.class
         };
     }
 
@@ -32,7 +32,8 @@ class Countdown extends Component {
     } 
 
     render() {
-        return (<h3 className={styles.cd}><marquee behavior="alternate" scrollamount="10">Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</marquee></h3>);
+        return (<h3 className={this.state.style}>Only {this.state.days} days, {this.state.hours} hours, and {this.state.minutes} minutes left!</h3>);
+
     }
 }
 
